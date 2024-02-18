@@ -10,7 +10,7 @@ run lint check
 npm run lint
 ```
 
-run fomatter
+run format
 ```bash
 npm run format
 ```
