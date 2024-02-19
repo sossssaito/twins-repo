@@ -1,8 +1,8 @@
-import { Button } from '@/test/MUI-TestButton'
+import { MUITestButton } from '@/test/MUITestButton'
 
 export default {
   title: 'Design System/Button',
-  component: Button,
+  component: MUITestButton,
   argTypes: {
     variant: {
       options: ['contained', 'outlined', 'text'],
@@ -18,5 +18,7 @@ export default {
 export const Default = {
   args: {
     label: 'button',
+    variant: 'contained',
+    color: 'primary',
   },
 }

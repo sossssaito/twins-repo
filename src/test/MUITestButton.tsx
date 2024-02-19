@@ -6,6 +6,6 @@ type ButtonBaseProps = Pick<MuiButtonProps, 'variant' | 'size' | 'color'>
 export interface ButtonProps extends ButtonBaseProps {
   label: string
 }
-export const Button = ({ label, ...rest }: ButtonProps) => (
+export const MUITestButton = ({ label, ...rest }: ButtonProps) => (
   <MuiButton {...rest}>{label}</MuiButton>
 )
